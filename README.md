@@ -24,18 +24,22 @@ Agricultural supply chains require efficient warehouse placement to minimize tra
 
 ## **📁 Repository Structure & Files**
 
-📂 Warehouse-Optimization-Data-Science
-│── 📜 README.md                   # Project Overview & Instructions
-│── 📂 data                         # Raw and cleaned datasets
-│   │── USDA_NASS_data.csv          # Raw USDA NASS data for farm statistics
-│   │── Map_2024_with_County.csv    # Supplier and buyer locations for warehouse evaluation
-│── 📂 notebooks                    # Jupyter Notebooks for data analysis
-│   │── Demand_Clustering.ipynb     # Clustering and demand analysis for warehouse selection
-│── 📂 reports                      # Project reports and presentations
-│   │── TGA_Analysis_EDA.xlsx       # Primary exploratory data analysis (EDA) in Excel
-│   │── The Good Acre Presentation.pdf # Final presentation summarizing key insights
-│── 📂 dashboard                    # Tableau dashboard and visualization files
-│   │── TGA_Dashboard.twbx          # Interactive Tableau dashboard for decision-making
+### **1. Data Files**
+- `USDA_NASS_data.csv` – Raw USDA NASS dataset containing county-level farm statistics, including farm numbers, acreage, and marginalized group representation.
+- `Map_2024_with_County.csv` – Supplier and buyer location dataset used for warehouse evaluation and geospatial analysis.
+
+### **2. Notebooks & Analysis**
+- `Demand_Clustering.ipynb` – Jupyter Notebook implementing K-Means clustering for farm location segmentation and demand analysis.
+- `TGA_Analysis_EDA.xlsx` – Exploratory Data Analysis (EDA) conducted in Excel to summarize key farm and supplier distribution metrics.
+
+### **3. Dashboard & Visualization**
+- `TGA_Dashboard.twbx` – Interactive Tableau dashboard visualizing warehouse rankings, geographic reach, and score-based recommendations.
+
+### **4. Reports & Presentation**
+- `The Good Acre Presentation.pdf` – Final presentation slides summarizing project findings, methodology, and recommendations.
+
+### **5. Supporting Files**
+- `README.md` – Project documentation and instructions.
 
 ---
 
