@@ -39,7 +39,7 @@ Agricultural supply chains require efficient warehouse placement to minimize tra
 
 ---
 
-## **📊 Step-by-Step Guide**
+## **🚀 Step-by-Step Guide**
 ### **1. Data Collection & Exploration**
 - **USDA_NASS_data.csv** → Contains farm density, acreage, and marginalized group representation.
 - **Map_2024_with_County.csv** → Supplier and buyer locations for warehouse evaluation.
